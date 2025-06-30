@@ -1,0 +1,56 @@
+ header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #3369FD;
+        border-bottom: 10px solid #000;
+        padding: 10px 20px;
+        }
+
+        nav{
+            text-align: right;
+        }
+
+ a      {
+        display: inline-flex;
+        align-items: center;
+        color: #FFF;
+        font-size: 20px;
+        font-family: "Fira Code", Arial;
+        font-weight: 500;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+
+    a::before {
+        content: "";
+        background-color: #FDCA33;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+    }
+
+    span {
+        background-color: #FDCA33;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+    }
+
+#button {
+        display: inline-block;
+        background-color: #FDCA33;
+        box-shadow: 5px 5px 0 black;
+        padding: 18px 20px; 
+        margin-right: 0;
+        transition: all 0.1s ease-in-out;
+    }
+
+#button:active {
+    background-color: #FFA500;
+    transform: translate(2px/2px);
+    box-shadow: 2px 2px 0 black;
+}
+
+#button:focus {
+    outline: 2px dashed #000;
+}
